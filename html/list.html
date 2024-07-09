@@ -1,48 +1,48 @@
-<body>
+<html><head><title>Your Videos</title></head><body>
 	<header>
 		<div>
 			<div>
-				<a href="./"><img src="logo.png" /></a>
+				<a href="./"><img src="logo.png"></a>
 			</div>
 			<div>
+			    <a href="https://discord.gg/VBfzmEF" target="_blank" class="button_big">DISCORD</a>
 				<a class="button_small" onclick="document.getElementById('file').click()">UPLOAD A MOVIE</a>
 				<div class="char_dropdown button_small">
-					<div>MAKE A CHARACTER</div>
+					<div>CREATE A CHARACTER</div>
 					<menu>
-						<a href="/cc?themeId=family&bs=adam">Adam</a>
-						<a href="/cc?themeId=family&bs=eve">Eve</a>
-						<a href="/cc?themeId=family&bs=bob">Bob</a>
-						<a href="/cc?themeId=family&bs=rocky">Rocky</a>
+						<a href="/cc?themeId=family&amp;bs=adam">Adam</a>
+						<a href="/cc?themeId=family&amp;bs=eve">Eve</a>
+						<a href="/cc?themeId=family&amp;bs=bob">Bob</a>
+						<a href="/cc?themeId=family&amp;bs=rocky">Rocky</a>
 						<div></div>
-						<a href="/cc?themeId=business&bs=default">Business</a>
-						<a href="/cc?themeId=business&bs=heavy">Heavy</a>
-						<a href="/cc?themeId=business&bs=kid">Kid</a>
+						<a href="/cc?themeId=business&amp;bs=default">Business</a>
+						<a href="/cc?themeId=business&amp;bs=heavy">Heavy</a>
+						<a href="/cc?themeId=business&amp;bs=kid">Kid</a>
 						<div></div>
-						<a href="/cc?themeId=whiteboard&bs=default">Whiteboard</a>
-						<a href="/cc?themeId=whiteboard&bs=kid">Whiteboard (Kid)</a>
+						<a href="/cc?themeId=whiteboard&amp;bs=default">Whiteboard</a>
+						<a href="/cc?themeId=whiteboard&amp;bs=kid">Whiteboard (Kid)</a>
 						<div></div>
-						<a href="/cc?themeId=anime&bs=guy">Guy (Anime)</a>
-						<a href="/cc?themeId=anime&bs=girl">Girl (Anime)</a>
+						<a href="/cc?themeId=anime&amp;bs=guy">Guy (Anime)</a>
+						<a href="/cc?themeId=anime&amp;bs=girl">Girl (Anime)</a>
 						<div></div>
-						<a href="/cc?themeId=ninjaanime&bs=guy">Guy (Ninja Anime)</a>
-						<a href="/cc?themeId=ninjaanime&bs=girl">Girl (Ninja Anime)</a>
+						<a href="/cc?themeId=ninjaanime&amp;bs=guy">Guy (Ninja Anime)</a>
+						<a href="/cc?themeId=ninjaanime&amp;bs=girl">Girl (Ninja Anime)</a>
 						<div></div>
-						<a href="/cc?themeId=cc2&bs=default">Lil Peepz</a>
+						<a href="/cc?themeId=cc2&amp;bs=default">Lil Peepz</a>
 						<div></div>
-						<a href="/cc?themeId=chibi&bs=default">Chibi Peepz</a>
+						<a href="/cc?themeId=chibi&amp;bs=default">Chibi Peepz</a>
 						<div></div>
-						<a href="/cc?themeId=ninja&bs=default">Chibi Ninjas</a>
+						<a href="/cc?themeId=ninja&amp;bs=default">Chibi Ninjas</a>
 						<div></div>
 
 					</menu>
 				</div>
-				<a href="/go_full" class="button_big">MAKE A COOL VIDEO</a>
-				<a href="https://wrappershop.ga" class="button_big">SHOP FOR MODS</a>
+				<a href="/go_full" class="button_big">MAKE A VIDEO</a>
 			</div>
 		</div>
 		<div class="warning">
-			this is Adam-Animate Remastered on Glitch And it has some pretty special stuff.<br>
-				
+			GoAnimate Hybrid is currently in Public Beta testing. Please expect bugs, downtime, video deletion, and missing features.
+			It is recomended you download your videos .xml files to back them up.<br>
 		</div>
 	</header>
 	<table>
@@ -61,8 +61,8 @@
 			</tr>
 		</tfoot>
 	</table>
-	<form enctype='multipart/form-data' action='/upload_movie' method='post'>
-		<input id='file' type="file" onchange="this.form.submit()" name='import' />
+	<form enctype="multipart/form-data" action="/upload_movie" method="post">
+		<input id="file" type="file" onchange="this.form.submit()" name="import">
 	</form>
 	<script>
 		const closeReq = new XMLHttpRequest();
@@ -422,4 +422,4 @@
 			font-style: normal;
 		}
 	</style>
-</body>
+</body></html>
